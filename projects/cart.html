@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <style>
+        .mainbox{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .mainbox img{
+            width: 30%;
+        }
+
+        .mainbox > div {
+            margin: 10px;
+        }
+
+        .mainbox a {
+            border: 1px solid black;
+            background-color: rgb(143, 57, 57);
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            margin: 10px;
+        }
+        
+        .mainbox-A a{
+            border: 1px solid black;
+            background-color: #FFCE12;
+            color: black;
+            text-decoration: none;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        .mainbox-second{
+            border: 1px solid black;
+            background-color: tan;
+            color: black;
+            padding: 10px;
+        }
+        
+        .mainbox-second p{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            position: relative;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+        <!-- <h1>Your Shopping Cart</h1>
+    <div id="cart-items"></div>
+    
+    <button id="clearCart">Clear Cart</button> -->
+    <!-- <br><br> -->
+    <div class="mainbox">
+        <img src="empty-cart.webp" alt="">
+        <h2>
+        🛒 Your Cart is Empty
+        </h2>
+        <div>
+            <a href="">
+                Shop today’s deals
+            </a>
+        </div>
+    
+        <div class="mainbox-A">
+                    <a href="">
+                        Sign in to your account
+                    </a>
+                    <a href="">            
+                        Sign up now
+                    </a>
+        </div>
+    </div>
+<hr>
+    <div class="mainbox-second">
+        <p>
+        The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.    
+        </p>
+        <p>
+        Do you have a promotional code? We'll ask you to enter your claim code when it's time to pay.
+        </p>
+    </div>
+ 
+    <a href="amazon.html">Back to Shop</a>
+    <script src="amazonclone.JS"></script>
+
+</body>
+</html>
